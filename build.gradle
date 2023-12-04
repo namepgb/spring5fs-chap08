@@ -1,0 +1,20 @@
+apply plugin: 'java'
+
+sourceCompatibility = '12'
+targetCompatibility = '12'
+compileJava.options.encoding = "UTF-8"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.0.2.RELEASE'
+    implementation group: 'org.springframework', name: 'spring-jdbc', version: '5.0.2.RELEASE'
+    implementation group: 'org.apache.tomcat', name: 'tomcat-jdbc', version: '8.5.27'
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.22'
+}
+
+wrapper {
+    gradleVersion = '7.3'
+}
