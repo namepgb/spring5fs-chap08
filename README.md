@@ -17,7 +17,7 @@
 >   * 프로젝트 준비
 >     * 프로젝트 생성
 >     * DB 테이블 생성 
->   * DataSource 설정
+>   * DataSource 설정
 >     * Tomcat JDBC의 주요 프로퍼티
 >   * JdbcTemplate을 이용한 쿼리 실행
 >     * JdbcTemplate 생성하기
