@@ -40,4 +40,4 @@
 > * `JdbcTemplate`을 사용해 `MySQL`에 연동하고 쿼리를 실행합니다.
 > 
 > 블로그 참고 문서
-> * [Spring 5 입문: Chapter 09. JdbcTemplate을 사용한 DB 연동](https://namepgb.tistory.com/266)
+> * [Spring 5 입문: Chapter 08. JdbcTemplate을 사용한 DB 연동](https://namepgb.tistory.com/266)
